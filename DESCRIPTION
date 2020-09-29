@@ -1,7 +1,7 @@
 Package: AhoCorasickTrie
 Type: Package
 Title: Fast Searching for Multiple Keywords in Multiple Texts
-Version: 0.1.0
+Version: 0.1.2
 Authors@R: c(person("Matt", "Chambers", email="matt.chambers42@gmail.com", role=c("aut", "cre")),
     person("Tomas", "Petricek", role=c("aut", "cph")),
     person("Vanderbilt University", role="cph"))
@@ -25,14 +25,14 @@ Encoding: UTF-8
 LazyData: true
 Imports: Rcpp (>= 0.12.5)
 LinkingTo: Rcpp
-Suggests: Biostrings, microbenchmark
+Suggests: Biostrings, microbenchmark, testthat
 SystemRequirements: C++11
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.1
 NeedsCompilation: yes
-Packaged: 2016-07-29 00:25:38 UTC; chambem2
+Packaged: 2020-09-29 14:29:43 UTC; Matthew
 Author: Matt Chambers [aut, cre],
   Tomas Petricek [aut, cph],
   Vanderbilt University [cph]
 Maintainer: Matt Chambers <matt.chambers42@gmail.com>
 Repository: CRAN
-Date/Publication: 2016-07-29 06:40:52
+Date/Publication: 2020-09-29 15:10:05 UTC
